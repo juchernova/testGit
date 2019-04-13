@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="bxslider/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+     <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="navbar-menu">
+            <div class="nav-menu size">
+                <!--
+                <<ul>
+                    <a href="#">
+                        <li>Категории</li>
+                    </a>
+                    <a href="#">
+                        <li>О компании</li>
+                    </a>
+                    <a href="#">
+                        <li>Услуги</li>
+                    </a>
+                    <a href="#">
+                        <li>Блог</li>
+                    </a>
+                    <a href="#">
+                        <li>Контакты</li>
+                    </a>
+                </ul>>
+               с помощью списка -->
+                <a href="#">Категории </a>
+                <a href="#">О компании </a>
+                <a href="#">Услуги</a>
+                <a href="#">Блог</a>
+                <a href="#">Контакты</a>
+            </div>
+        </div>
+        <div class="nav-cont">
+            <div class="contact size">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="phones">
+                    <a href="tel:+08097325662">+08097325662</a>
+                    <a href="tel:+08097325662">+08097325662</a>
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="mail">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:sbtrade@gmail.com">sbtrade@gmail.com</a>
+                </div>
+                <div class="sear">
+                    <form class="search">
+                        <input type="text"> <button>Поиск</button>
+                    </form>
+                </div>
+                <div class="lang">
+                    <a href="#">Рус</a> <a href="#">Укр</a>
+                </div>
+            </div>
+        </div>
+        <div class="container box">
+            <div class="row">
+                <nav class="navbar navbar-default navigation">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                                aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="sears">
+                                <form class="search">
+                                    <input type="text" placeholder="Введите ключевое слово или артикул товара"> <button><i
+                                            class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse menu" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav menu-ul">
+                                        <li class="menu-li line"><a href="#">Пожарная сигнализация</a>
+                                            <ul class="submenu">
+                                                    <li><a href="#">ППКП</a></li>
+                                                     <li><a href="#">Датчики</a></li>
+                                                     <li><a href="#">Оповещения</a></li>
+                                                     <li><a href="#">Системы пожаротушения</a></li>
+                                                     <li><a href="#">Сопутствующее оборудование</a></li>
+                                                     </ul></li>
+                                        <li class="menu-li line"><a href="#">Охранная сигнализация</a>
+                                            <ul class="submenu">
+                                                    <li><a href="#">ППКП</a></li>
+                                                     <li><a href="#">Датчики</a></li>
+                                                     <li><a href="#">Оповещения</a></li>
+                                                     <li><a href="#">Системы пожаротушения</a></li>
+                                                     <li><a href="#">Сопутствующее оборудование</a></li>
+                                                     </ul></li>
+                                        <li class="center sqre"><a href="#">Домофоны</a>
+                                            <ul class="submenu domo">
+                                                    <li><a href="#">Видеодомофоны</a></li>
+                                                     <li><a href="#">Вызывные панели</a></li>
+                                                     <li><a href="#">Аудиодомофоны</a></li>
+                                                     <li><a href="#">Переговорные устройства</a></li>
+                                                     </ul></li>
+                                        <li class="center sqre"><a href="#">Видеонаблюдение</a>
+                                            <ul class="submenu">
+                                                    <li><a href="#">АНАЛОГОВОЕ HD-ВИДЕО</a></li>
+                                                     <li><a href="#">ЦИФРОВОЕ IP-ВИДЕО</a></li>
+                                                     <li><a href="#">ППК Варта</a></li>
+                                                     <li><a href="#">ППК Алай</a></li>
+                                                     </ul></li>
+                                        <li class="center sqre"><a href="#">СКУД</a>
+                                            <ul class="submenu scud">
+                                                    <li><a href="#">ППК Тирас</a></li>
+                                                     <li><a href="#">ППК Артон</a></li>
+                                                     <li><a href="#">ППК Варта</a></li>
+                                                     <li><a href="#">ППК Алай</a></li>
+                                                     </ul></li>
+                                        <li class="center line-sq"><a href="#">Кабель, провода</a>
+                                            <ul class="submenu sub-menu">
+                                                    <li><a href="#">ППК Тирас</a></li>
+                                                     <li><a href="#">ППК Артон</a></li>
+                                                     <li><a href="#">ППК Варта</a></li>
+                                                     <li><a href="#">ППК Алай</a></li>
+                                                     </ul></li>
+                                        <li class="menu-li line"><a href="#">Источники питания</a>
+                                            <ul class="submenu sub-m">
+                                                    <li><a href="#">ППК Тирас</a></li>
+                                                     <li><a href="#">ППК Артон</a></li>
+                                                     <li><a href="#">ППК Варта</a></li>
+                                                     <li><a href="#">ППК Алай</a></li>
+                                                     </ul></li>
+                                        <li class="menu-li"><a href="#">Монтажное оборудование</a>
+                                            <ul class="submenu sub">
+                                                    <li><a href="#">ППК Тирас</a></li>
+                                                     <li><a href="#">ППК Артон</a></li>
+                                                     <li><a href="#">ППК Варта</a></li>
+                                                     <li><a href="#">ППК Алай</a></li>
+                                                     </ul></li>
+                                    </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container bot-cont">
+            <ol class="breadcrumb">
+                    <li><a href="#">Главная</a></li>
+                    <li class="active">Карточка товара</li>
+                  </ol>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+       <div class="row filtr">
+           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+           <div class="polzunok">
+               Фильтр
+           </div>
+           <div class="btn-group page-sort">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Сортировка <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">По умолчанию</a></li>
+              <li><a href="#">Наименование (А-Я)</a></li>
+              <li><a href="#">Наименование (Я-А)</a></li>
+              <li><a href="#">Цена (по возрастанию)</a></li>
+              <li><a href="#">Цена (по убыванию)</a></li>
+              <li><a href="#">Модель (А-Я)</a></li>
+              <li><a href="#">Модель (Я-А)</a></li>
+            </ul>
+          </div>
+          <div class="btn-group page-sort">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              На странице <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">10</a></li>
+              <li><a href="#">15</a></li>
+              <li><a href="#">20</a></li>
+              <li><a href="#">25</a></li>
+              <li><a href="#">30</a></li>
+            </ul>
+          </div>
+       </div>
+
+      </div>
+      <div class="row slider-newand">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                 <div class="new-next newbx">
+                        <div class="slidernew">
+                                <div class="image-new img-new"><img src="img/cat2.png" alt=""></div>
+                                <div class="image-new img-new"><img src="img/cat2.png" alt=""></div>
+                                <div class="image-new img-new"><img src="img/cat1.png" alt=""></div>
+                                <div class="image-new img-new"><img src="img/cat2.png" alt=""></div>
+                                <div class="image-new img-new"><img src="img/cat1.png" alt=""></div>
+                                <div class="image-new img-new"><img src="img/cat2.png" alt=""></div>
+                            </div>
+                        </div>
+        <div class="stock-next newbx">
+            <div class="sliderstock">
+                <div class="image-stock img-new"><img src="img/cat2.png" alt=""></div>
+                <div class="image-stock img-new"><img src="img/cat2.png" alt=""></div>
+                <div class="image-stock img-new"><img src="img/cat1.png" alt=""></div>
+                <div class="image-stock img-new"><img src="img/cat2.png" alt=""></div>
+                <div class="image-stock img-new"><img src="img/cat1.png" alt=""></div>
+                <div class="image-stock img-new"><img src="img/cat2.png" alt=""></div>
+            </div>
+            </div>
+            </div>
+      </div>
+        </div>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+
+                <div class="row cart">
+                    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                        <div class="img-cart">
+                            <img src="img/cart1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="descr-h">
+                        <h3>
+                                CCA 2x2,00 мм Прозрачный кабель
+                        </h3>
+                        </div>
+                        
+                        <div class="procode">
+                            <div class="procode-one">
+                                <p>Производитель: <span>SOLID TEAM</span></p>
+                                <p>Код товара: <span>549-SOLID-TEAM-1668</span></p>
+                            </div>
+                            <div class="procode-two">
+                                <button>Есть в наличии</button>
+                            </div>
+                        </div>
+                        <div class="quantity">
+                                <div class="procode-one">
+                                    <p>Количество:</p>
+                                   
+                                </div>
+                                <div class="procode-quan">
+                                    <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                  <input type="number" min="0" max="100" value="1" readonly class="raz">
+                                <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                </div>
+                            </div>
+                            <div class="pro-buy">
+                            <div class="procode-price">
+                                <p>Цена: <span>839,78 грн</span></p>
+                
+                            </div>
+                            <div class="procode-buy">
+                                <button>Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row specifications">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="specific">
+                            <ul>
+                               <button class="specific-descr"><li>Описание</li></button>
+                               <button class="specific-spec"><li>Характеристики</li></button>
+                            </ul>
+                            </div>
+                        <div class="spec-descr">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                            </ul>
+                        </div>
+                        <div class="spec-spec">
+                            <ul>
+                                <li>!!!!Lorem ipsum dolor sit amet, consectetur.</li>
+                                <li>!!!!Lorem ipsum dolor sit amet, consectetur.</li>
+                                <li>!!!!Lorem ipsum dolor sit amet, consectetur.</li>
+                                <li>!!!!Lorem ipsum dolor sit amet, consectetur.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+      
+        
+              <div class="row all-goods">
+                  <h4>Все товары</h4>
+              </div>
+              <div class="row goods-cat">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 all">
+                     <div class="goods"><img src="img/cat5.png" alt="">
+                                <div class="buy-goods">
+                                    <h4>Наименование</h4>
+                                    <div class="buy-b">
+                                        <div class="pricebuy">
+                                            <p>Цена 1300,00 грн</p>
+                                        </div>
+                                        <div class="buttbuy">
+                                            <button>Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                    </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 all">
+                     <div class="goods"><img src="img/cat5.png" alt="">
+                                <div class="buy-goods">
+                                    <h4>Наименование</h4>
+                                   
+                                    <div class="buy-b">
+                                        <div class="pricebuy">
+                                            <p>Цена 1300,00 грн</p>
+                                        </div>
+                                        <div class="buttbuy">
+                                            <button>Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                    </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 all">
+                     <div class="goods"><img src="img/cat5.png" alt="">
+                                <div class="buy-goods">
+                                    <h4>Наименование</h4>
+                                   
+                                    <div class="buy-b">
+                                        <div class="pricebuy">
+                                            <p>Цена 1300,00 грн</p>
+                                        </div>
+                                        <div class="buttbuy">
+                                            <button>Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 all">
+                        <div class="goods"><img src="img/cat5.png" alt="">
+                                   <div class="buy-goods">
+                                       <h4>Наименование</h4>
+                                      
+                                       <div class="buy-b">
+                                           <div class="pricebuy">
+                                               <p>Цена 1300,00 грн</p>
+                                           </div>
+                                           <div class="buttbuy">
+                                               <button>Купить</button>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>   
+                       </div>
+              </div>
+               <div class="row goods-cat">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 all">
+                     <div class="goods"><img src="img/cat5.png" alt="">
+                                <div class="buy-goods">
+                                    <h4>Наименование</h4>
+                                    <div class="buy-b">
+                                        <div class="pricebuy">
+                                            <p>Цена 1300,00 грн</p>
+                                        </div>
+                                        <div class="buttbuy">
+                                            <button>Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                    </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 all">
+                     <div class="goods"><img src="img/cat5.png" alt="">
+                                <div class="buy-goods">
+                                    <h4>Наименование</h4>
+                                   
+                                    <div class="buy-b">
+                                        <div class="pricebuy">
+                                            <p>Цена 1300,00 грн</p>
+                                        </div>
+                                        <div class="buttbuy">
+                                            <button>Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                    </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 all">
+                     <div class="goods"><img src="img/cat5.png" alt="">
+                                <div class="buy-goods">
+                                    <h4>Наименование</h4>
+                                   
+                                    <div class="buy-b">
+                                        <div class="pricebuy">
+                                            <p>Цена 1300,00 грн</p>
+                                        </div>
+                                        <div class="buttbuy">
+                                            <button>Купить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 all">
+                        <div class="goods"><img src="img/cat5.png" alt="">
+                                   <div class="buy-goods">
+                                       <h4>Наименование</h4>
+                                      
+                                       <div class="buy-b">
+                                           <div class="pricebuy">
+                                               <p>Цена 1300,00 грн</p>
+                                           </div>
+                                           <div class="buttbuy">
+                                               <button>Купить</button>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>   
+                       </div>
+              </div>
+          <nav aria-label="Page navigation" class="pagi">
+                            <ul class="pagination">
+                              <li>
+                                <a href="#" aria-label="Previous">
+                                  <span aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
+                                </a>
+                              </li>
+                              <li><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li><a href="#">6</a></li>
+                              <li><a href="#">7</a></li>
+                              <li>
+                                <a href="#" aria-label="Next">
+                                  <span aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+    </div>
+    </div>
+    </div>
+   
+
+
+
+    <div class="zayavka-box">
+        <div class="zayavka">
+            <!-- Триггер кнопка модали-->
+            <button type="button" class="btn btn-primary btn-lg mod-zay" data-toggle="modal" data-target="#myModal">
+                <img src="img/konvert.png" alt="">
+            </button>
+
+            <!-- Модаль -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">ОСТАВЬТЕ ЗАЯВКУ</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form id="form_id" class="form-horizontal">
+                                <div class="form-group">
+                                    <input id="name" class="form-control" name="name" required type="text" placeholder="Ваше имя">
+                                </div>
+                                <div class="form-group">
+                                    <input id="email" class="form-control" name="email" required type="email"
+                                        placeholder="E-mail адрес">
+                                </div>
+                                <div class="form-group">
+                                    <input id="phone" class="form-control phone_us" name="phone" required type="text"
+                                        placeholder="Телефон">
+                                </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary but-send">Отправить</button>
+                            <button type="button" class="btn btn-default but-closed" data-dismiss="modal">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="nav-foot">
+            <div class="container">
+                <div class="foot">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12 box-foot">
+                            <a href="#" class="thumbnail bgr">
+                                <img src="img/logo.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12 box-foot">
+                            <a href="#" class="thumbnail bgr">Пожарная сигнализация</a>
+                            <a href="#" class="thumbnail bgr">Охранная сигнализация</a>
+                            <a href="#" class="thumbnail bgr">Домофоны</a>
+                            <a href="#" class="thumbnail bgr">Видеонаблюдение</a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12 box-foot">
+                            <a href="#" class="thumbnail bgr">СКУД</a>
+                            <a href="#" class="thumbnail bgr">Кабель, провода</a>
+                            <a href="#" class="thumbnail bgr">Источники питания</a>
+                            <a href="#" class="thumbnail bgr">Монтажное оборудование</a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12 box-foot">
+                            <a href="#" class="thumbnail bgr call">Контакты</a>
+
+                            <a href="tel:+08097325662" class="thumbnail bgr foot-phone">+08097325662</a>
+                            <a href="tel:+08097325662" class="thumbnail bgr">+08097325662</a>
+
+                            <a href="mailto:sbtrade@gmail.com" class="thumbnail bgr foot-mail">sbtrade@gmail.com</a>
+                            <a href="#" class="thumbnail bgr-adress">г. Запорожье,<br> ул. Иванова, 98
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+
+
+            <div class="social-center">
+                <div class="foot-social">
+                    <a href="#" class="soc"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="soc"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="soc"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="soc"><i class="fab fa-viber"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="bxslider/jquery.bxslider.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
